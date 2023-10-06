@@ -1,0 +1,19 @@
+[package]
+name = "coin-counter"
+version = "0.1.0"
+edition = "2021"
+default-run = "coin-counter"
+
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5" 
+
+
